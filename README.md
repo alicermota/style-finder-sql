@@ -1,169 +1,243 @@
-# Style Finder: SQL Outfit Quiz
+# Style Finder: SQL-Powered Fashion Outfit Quiz
 
-## Project Summary
+This is a SQL portfolio project I built using the H&M Personalized Fashion Recommendations dataset from Kaggle.
 
-Style Finder is a beginner-friendly but portfolio-ready SQL project. It uses real H&M purchase data to power a small fashion quiz that recommends an outfit from customer behavior.
-
-This is not an advanced machine learning recommender. It is a SQL-first recommendation project that demonstrates data modeling, analysis, segmentation, ranking, and a simple Python interface.
-
-## Overview
-
-Style Finder is a SQL portfolio project built with the H&M Personalized Fashion Recommendations dataset. Instead of only reporting generic fashion statistics, the project turns customer and product data into a quiz-style outfit recommendation.
-
-The quiz asks about age, shopping style, style vibe, color palette, season, and price preference. SQL then finds products bought by similar customers and recommends either:
+I wanted to make a project that was more interesting than just "top 10 products" or basic sales statistics, so I created a small fashion quiz that recommends an outfit based on a person's answers. The quiz uses real customer purchase data, product information, and SQL logic to suggest either:
 
 - a top, bottom, accessory, and shoes
 - or a dress, accessory, and shoes
 
-The outfit type is inferred from the data, so the user is not directly asked whether they want a dress.
+The project is mainly focused on SQL, but I also added a simple Python terminal game so the analysis feels more interactive.
+
+## Why I Built This
+
+I'm interested in fashion, trends, and data, so I wanted to build a project that connected those things in a realistic way.
+
+The goal was not to build a perfect recommendation system or an advanced machine learning model. Instead, I wanted to show that I can:
+
+- work with a large real-world dataset
+- design useful SQL queries
+- join and analyze multiple tables
+- turn data analysis into something more user-facing
+- explain the logic behind the results
 
 ## Dataset
 
-Source: H&M Personalized Fashion Recommendations dataset from Kaggle.
+The project uses the H&M Personalized Fashion Recommendations dataset from Kaggle.
 
-Raw Kaggle files are not included in this repo because they are large. See `DATA_SETUP.md` to recreate the database locally.
+The original data includes:
 
-Imported tables:
+- `articles.csv` - product information
+- `customers.csv` - customer information
+- `transactions_train.csv` - purchase history
 
-- `articles`: product details
-- `customers`: customer attributes
-- `transactions`: purchase history
+The raw dataset is not included in this repository because the files are too large. Instructions for setting up the data locally are in `DATA_SETUP.md`.
 
-Expected row counts:
+## Project Idea
 
-- `articles`: 105,542
-- `customers`: 1,371,980
-- `transactions`: 31,788,324
+The quiz asks 6 questions:
 
-## Quiz Logic
+1. What is your age group?
+2. Do you usually shop online, in store, or both?
+3. What style vibe do you want?
+4. What color palette do you prefer?
+5. What season are you dressing for?
+6. What price range do you prefer?
 
-The quiz uses 6 questions:
+Based on those answers, SQL filters and ranks products using real purchase behavior.
 
-1. Age group: `16-24`, `25-34`, `35-44`, `45+`
-2. Shopping style: `mostly_online`, `mostly_store`, `no_preference`
-3. Style vibe: `casual_basics`, `polished`, `statement_trendy`, `cozy`
-4. Color palette: `neutral_dark`, `soft_light`, `colorful`, `denim_blue`
-5. Season: `spring_summer`, `autumn_winter`, `all_year`
-6. Price preference: `budget`, `mid_range`, `premium`
-
-The H&M price column is normalized, so the project uses relative price bands rather than real currency.
-
-## Files
-
-- `style_finder_quiz.py`: playable Python terminal quiz powered by PostgreSQL.
-- `make_outfit_gallery.py`: creates a simple HTML gallery from sample outfit results.
-- `DATA_SETUP.md`: explains how to download/import the Kaggle data.
-- `sql/01_quiz_option_analysis.sql`: checks purchase volume behind each quiz answer.
-- `sql/02_price_bands.sql`: calculates relative price bands.
-- `sql/03_recommendation_logic.sql`: ranks products by style vibe and popularity.
-- `sql/04_sample_outfit_paths.sql`: generates complete outfit recommendations for sample quiz personas.
-- `sql/05_age_channel_price_items.sql`: compares top product types by age, channel, and price band.
-- `sql/06_game_support.sql`: creates the materialized view used by the Python quiz.
-- `results/`: exported CSV outputs.
-- `insights.md`: plain-English conclusions from the result files.
-
-## Image-Ready Setup
-
-This version does not require product images, but it is ready for them later.
-
-Each outfit result includes an `image_path` such as:
+For example, if someone chooses:
 
 ```text
-images/010/0108775015.jpg
+Age group: 16-24
+Shopping style: mostly online
+Style vibe: statement/trendy
+Color palette: colorful
+Season: spring/summer
+Price range: mid-range
 ```
 
-After downloading the Kaggle image folder, place it here:
+The project finds products that match that profile and recommends a full outfit.
+
+## How The Recommendation Works
+
+The recommendation is SQL-based.
+
+I used:
+
+- joins between customers, transactions, and products
+- `CASE` statements to create quiz categories
+- price percentiles to create budget, mid-range, and premium groups
+- date logic to separate spring/summer and autumn/winter purchases
+- `GROUP BY` to count purchases
+- window functions like `ROW_NUMBER()` to rank items
+- a materialized view to make the Python quiz faster
+
+The outfit type is inferred by the SQL logic. The user is not directly asked if they want a dress. If a dress is the strongest full-body match, the result can be:
 
 ```text
-assets/images/
+dress + accessory + shoes
 ```
 
-A future app can display each item by combining:
+Otherwise, the result is:
 
 ```text
-assets/ + image_path
+top + bottom + accessory + shoes
 ```
 
-Example:
+## Files In This Project
 
-```text
-assets/images/010/0108775015.jpg
-```
+`style_finder_quiz.py`
 
-## SQL Skills Shown
+A simple Python terminal quiz that asks questions and returns an outfit.
 
-- joins across customer, transaction, and product tables
-- grouped analysis with `COUNT`
-- date logic with transaction months
-- percentile-based price bands
-- `CASE` statements for quiz answer mapping
-- window functions for ranking recommended products
-- CSV exports for portfolio-ready outputs
+`make_outfit_gallery.py`
 
-## How To Re-run
+Creates an HTML gallery from sample outfit results.
 
-From the project folder, run:
+`sql/`
 
-```bash
-psql -h localhost -d fashion_sql_project -f sql/01_quiz_option_analysis.sql
-psql -h localhost -d fashion_sql_project -f sql/02_price_bands.sql
-psql -h localhost -d fashion_sql_project -f sql/03_recommendation_logic.sql
-psql -h localhost -d fashion_sql_project -f sql/04_sample_outfit_paths.sql
-psql -h localhost -d fashion_sql_project -f sql/05_age_channel_price_items.sql
-```
+Contains the SQL scripts used for analysis and recommendation logic.
 
-You can also open each SQL file in DBeaver to study the logic.
+`results/`
 
-## Play The Quiz Game
+Contains smaller CSV outputs generated from the SQL analysis.
 
-The project includes a simple terminal game:
+`insights.md`
 
-```bash
-python3 style_finder_quiz.py
-```
+A short written summary of the main conclusions.
 
-Before playing for the first time, build the SQL support view:
+`DATA_SETUP.md`
+
+Instructions for downloading the Kaggle data and recreating the database.
+
+## SQL Files
+
+`sql/01_quiz_option_analysis.sql`
+
+Checks whether each quiz option has enough purchase data behind it.
+
+`sql/02_price_bands.sql`
+
+Creates relative price bands because the H&M price column is normalized.
+
+`sql/03_recommendation_logic.sql`
+
+Ranks products by style category and popularity.
+
+`sql/04_sample_outfit_paths.sql`
+
+Generates sample outfit recommendations.
+
+`sql/05_age_channel_price_items.sql`
+
+Compares popular product types by age group, shopping channel, and price band.
+
+`sql/06_game_support.sql`
+
+Creates the materialized view used by the Python quiz.
+
+## How To Run The Quiz
+
+First, make sure the PostgreSQL database has been created and the Kaggle data has been imported.
+
+Then build the support view:
 
 ```bash
 psql -h localhost -d fashion_sql_project -f sql/06_game_support.sql
 ```
 
-The game asks the 6 quiz questions, runs a PostgreSQL recommendation query, and prints a complete outfit. It does not need images, but each item includes a future image path like:
+Run the quiz:
 
-```text
-assets/images/071/0714828001.jpg
+```bash
+python3 style_finder_quiz.py
 ```
 
-The game showcases SQL proficiency because the recommendation uses:
-
-- joins across customers, transactions, and articles
-- CTEs
-- CASE statements for quiz categories
-- percentile-based price bands
-- GROUP BY purchase counts
-- ROW_NUMBER window ranking
-- automatic outfit type inference
-
-To print the generated recommendation SQL while playing, run:
+To show the SQL query while playing:
 
 ```bash
 python3 style_finder_quiz.py --show-sql
 ```
 
-To download the images for the outfit you get, run:
+To download product images for the outfit result:
 
 ```bash
 python3 style_finder_quiz.py --download-images
 ```
 
-To generate and automatically open an image page for your outfit, run:
+To open an HTML page showing the outfit images:
 
 ```bash
 python3 style_finder_quiz.py --download-images --open
 ```
 
-If you want both:
+## Example Output
 
-```bash
-python3 style_finder_quiz.py --show-sql --download-images --open
+The quiz returns an outfit with:
+
+- outfit type
+- product names
+- product categories
+- colors
+- article IDs
+- purchase counts
+- product descriptions
+- image paths
+
+Example:
+
+```text
+TOP
+Product: AK Deidre tee
+Type: Polo shirt
+Color: Light Green
+
+BOTTOM
+Product: Kevin skirt
+Type: Skirt
+Color: Red
+
+ACCESSORY
+Product: Ring
+Type: Accessories
+
+SHOES
+Product: Espadrille
+Type: Flat shoe
 ```
+
+## Image Notes
+
+The project does not include the full H&M image dataset because it is very large.
+
+However, the project is image-ready. Each result includes an image path like:
+
+```text
+assets/images/078/0784472003.jpg
+```
+
+If images are downloaded from Kaggle, the quiz can display them in an HTML outfit page.
+
+## What I Learned
+
+This project helped me practice:
+
+- importing and working with a large dataset
+- choosing correct data types for IDs
+- writing joins across multiple tables
+- using CTEs to organize SQL logic
+- creating categories with `CASE`
+- using window functions for ranking
+- using materialized views for performance
+- connecting SQL analysis to a small Python interface
+- presenting data results as a more interactive project
+
+## Limitations
+
+This is not a production recommendation system. It does not use machine learning or personal user history beyond the quiz answers.
+
+The recommendations are based on matching quiz answers to purchase patterns in the dataset. This makes the project easier to understand and more focused on SQL skills.
+
+## Main Takeaway
+
+This project shows how SQL can be used for more than static reports. By combining customer behavior, product data, and ranking logic, I turned a large fashion dataset into a simple outfit recommendation quiz.
