@@ -1,6 +1,6 @@
 # Style Finder: SQL-Powered Fashion Outfit Quiz
 
-This is a SQL portfolio project I built using the H&M Personalized Fashion Recommendations dataset from Kaggle.
+This is a SQL project I built using the H&M Personalized Fashion Recommendations dataset from Kaggle.
 
 I wanted to make a project that was more interesting than just "top 10 products" or basic sales statistics, so I created a small fashion quiz that recommends an outfit based on a person's answers. The quiz uses real customer purchase data, product information, and SQL logic to suggest either:
 
