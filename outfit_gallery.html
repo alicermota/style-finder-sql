@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Style Finder Outfit Gallery</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f7f4ef;
+            color: #1f1f1f;
+        }
+        header, section {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 32px 20px;
+        }
+        h1, h2, h3, p {
+            margin: 0;
+        }
+        h1 {
+            font-size: 36px;
+            margin-bottom: 8px;
+        }
+        h2 {
+            font-size: 24px;
+            margin-bottom: 16px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 16px;
+        }
+        .card {
+            background: #fff;
+            border: 1px solid #ded8cf;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        img, .missing {
+            width: 100%;
+            aspect-ratio: 3 / 4;
+            object-fit: cover;
+            background: #e6e0d7;
+        }
+        .missing {
+            display: grid;
+            place-items: center;
+            color: #6c665f;
+        }
+        .card h3, .card p {
+            padding: 0 12px 10px;
+        }
+        .slot {
+            padding-top: 12px;
+            text-transform: uppercase;
+            font-size: 12px;
+            letter-spacing: .08em;
+            color: #7a3e2f;
+            font-weight: bold;
+        }
+        .support {
+            color: #69635c;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Style Finder Outfit Gallery</h1>
+        <p>Sample SQL-generated outfits from the H&M dataset.</p>
+    </header>
+    
+            <section>
+                <h2>Cozy budget winter basics</h2>
+                <div class="grid">
+                <article class="card">
+                    <img src="assets/images/053/0537116001.jpg" alt="Tara turtleneck top">
+                    <p class="slot">top</p>
+                    <h3>Tara turtleneck top</h3>
+                    <p>Sweater · Black</p>
+                    <p class="support">741 matching purchases</p>
+                </article>
+                
+                <article class="card">
+                    <img src="assets/images/065/0659322001.jpg" alt="Britney Skirt">
+                    <p class="slot">bottom</p>
+                    <h3>Britney Skirt</h3>
+                    <p>Skirt · Black</p>
+                    <p class="support">42 matching purchases</p>
+                </article>
+                
+                <article class="card">
+                    <img src="assets/images/067/0673396002.jpg" alt="Ringo hipbelt">
+                    <p class="slot">accessory</p>
+                    <h3>Ringo hipbelt</h3>
+                    <p>Belt · Black</p>
+                    <p class="support">633 matching purchases</p>
+                </article>
+                
+                <article class="card">
+                    <img src="assets/images/062/0622963008.jpg" alt="Hansel Boot">
+                    <p class="slot">shoes</p>
+                    <h3>Hansel Boot</h3>
+                    <p>Boots · Black</p>
+                    <p class="support">32 matching purchases</p>
+                </article>
+                </div>
+            </section>
+            
+            <section>
+                <h2>Gen Z colorful online trend seeker</h2>
+                <div class="grid">
+                <article class="card">
+                    <img src="assets/images/071/0714828001.jpg" alt="Evelyn midi dress">
+                    <p class="slot">dress</p>
+                    <h3>Evelyn midi dress</h3>
+                    <p>Dress · Red</p>
+                    <p class="support">423 matching purchases</p>
+                </article>
+                
+                <article class="card">
+                    <img src="assets/images/075/0750197001.jpg" alt="Maggie no rim">
+                    <p class="slot">accessory</p>
+                    <h3>Maggie no rim</h3>
+                    <p>Sunglasses · Pink</p>
+                    <p class="support">84 matching purchases</p>
+                </article>
+                
+                <article class="card">
+                    <img src="assets/images/080/0808687002.jpg" alt="Gamma sandalette">
+                    <p class="slot">shoes</p>
+                    <h3>Gamma sandalette</h3>
+                    <p>Heeled sandals · Pink</p>
+                    <p class="support">147 matching purchases</p>
+                </article>
+                </div>
+            </section>
+            
+            <section>
+                <h2>Polished neutral city shopper</h2>
+                <div class="grid">
+                <article class="card">
+                    <img src="assets/images/056/0568601006.jpg" alt="Mariette Blazer">
+                    <p class="slot">top</p>
+                    <h3>Mariette Blazer</h3>
+                    <p>Blazer · Black</p>
+                    <p class="support">1,656 matching purchases</p>
+                </article>
+                
+                <article class="card">
+                    <img src="assets/images/084/0840024001.jpg" alt="Lawrence HW tapered trousers">
+                    <p class="slot">bottom</p>
+                    <h3>Lawrence HW tapered trousers</h3>
+                    <p>Trousers · Black</p>
+                    <p class="support">29 matching purchases</p>
+                </article>
+                
+                <article class="card">
+                    <img src="assets/images/063/0639448001.jpg" alt="Day tote">
+                    <p class="slot">accessory</p>
+                    <h3>Day tote</h3>
+                    <p>Bag · Black</p>
+                    <p class="support">406 matching purchases</p>
+                </article>
+                
+                <article class="card">
+                    <img src="assets/images/055/0556438001.jpg" alt="Amelie pump">
+                    <p class="slot">shoes</p>
+                    <h3>Amelie pump</h3>
+                    <p>Pumps · Black</p>
+                    <p class="support">209 matching purchases</p>
+                </article>
+                </div>
+            </section>
+            
+            <section>
+                <h2>Soft casual everyday outfit</h2>
+                <div class="grid">
+                <article class="card">
+                    <img src="assets/images/074/0749699002.jpg" alt="Chestnut strap top">
+                    <p class="slot">top</p>
+                    <h3>Chestnut strap top</h3>
+                    <p>Vest top · Off White</p>
+                    <p class="support">5,972 matching purchases</p>
+                </article>
+                
+                <article class="card">
+                    <img src="assets/images/057/0573716053.jpg" alt="Kanta slacks RW">
+                    <p class="slot">bottom</p>
+                    <h3>Kanta slacks RW</h3>
+                    <p>Trousers · White</p>
+                    <p class="support">1,675 matching purchases</p>
+                </article>
+                
+                <article class="card">
+                    <img src="assets/images/045/0451744018.jpg" alt="Joel straw shopper">
+                    <p class="slot">accessory</p>
+                    <h3>Joel straw shopper</h3>
+                    <p>Bag · Beige</p>
+                    <p class="support">411 matching purchases</p>
+                </article>
+                
+                <article class="card">
+                    <img src="assets/images/047/0470985003.jpg" alt="Vaughan sneaker">
+                    <p class="slot">shoes</p>
+                    <h3>Vaughan sneaker</h3>
+                    <p>Sneakers · White</p>
+                    <p class="support">469 matching purchases</p>
+                </article>
+                </div>
+            </section>
+            
+</body>
+</html>

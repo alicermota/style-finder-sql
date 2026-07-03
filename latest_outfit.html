@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Your Style Finder Outfit</title>
+    <style>
+        :root {
+            color-scheme: light;
+            --paper: #f8f4ef;
+            --ink: #1f1d1b;
+            --muted: #706a63;
+            --line: #ddd3c7;
+            --card: #fffdf9;
+            --accent: #8d4637;
+        }
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: var(--paper);
+            color: var(--ink);
+        }
+        header {
+            max-width: 1180px;
+            margin: 0 auto;
+            padding: 36px 20px 20px;
+        }
+        h1 {
+            margin: 0 0 10px;
+            font-size: clamp(32px, 6vw, 58px);
+            line-height: 1;
+        }
+        .summary {
+            color: var(--muted);
+            max-width: 760px;
+            line-height: 1.5;
+        }
+        .grid {
+            max-width: 1180px;
+            margin: 0 auto;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 18px;
+        }
+        .card {
+            background: var(--card);
+            border: 1px solid var(--line);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        img, .missing {
+            width: 100%;
+            aspect-ratio: 3 / 4;
+            object-fit: cover;
+            background: #e7ded3;
+            display: grid;
+            place-items: center;
+            text-align: center;
+            color: var(--muted);
+            padding: 16px;
+        }
+        .missing small {
+            display: block;
+            margin-top: 8px;
+            overflow-wrap: anywhere;
+        }
+        .content { padding: 14px; }
+        .slot {
+            margin: 0 0 8px;
+            text-transform: uppercase;
+            font-size: 12px;
+            font-weight: 700;
+            color: var(--accent);
+        }
+        h2 {
+            margin: 0 0 8px;
+            font-size: 20px;
+            line-height: 1.15;
+        }
+        p { margin: 0; }
+        .meta, .desc {
+            color: var(--muted);
+            line-height: 1.35;
+            margin-top: 6px;
+        }
+        .support {
+            margin-top: 10px;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Style Finder Outfit</h1>
+        <p class="summary">
+            Outfit type inferred by SQL: <strong>top bottom outfit</strong><br>
+            Quiz path: 45+ | mostly_store | polished | colorful | autumn_winter | premium<br>
+            Purchase support across chosen pieces: 539
+        </p>
+    </header>
+    <main class="grid">
+        
+            <article class="card">
+                <img src="assets/images/056/0568601038.jpg" alt="Mariette Blazer">
+                <div class="content">
+                    <p class="slot">top</p>
+                    <h2>Mariette Blazer</h2>
+                    <p class="meta">Blazer / Dressed</p>
+                    <p class="meta">Dark Green / article 0568601038</p>
+                    <p class="support">449 matching purchases</p>
+                    <p class="desc">Fitted jacket in woven fabric with notch lapels, jetted front pockets, a decorative button at the cuffs and a single back vent. Lined.</p>
+                </div>
+            </article>
+            
+            <article class="card">
+                <img src="assets/images/090/0906449001.jpg" alt="Roundabout skirt">
+                <div class="content">
+                    <p class="slot">bottom</p>
+                    <h2>Roundabout skirt</h2>
+                    <p class="meta">Skirt / Blouses</p>
+                    <p class="meta">Light Orange / article 0906449001</p>
+                    <p class="support">1 matching purchases</p>
+                    <p class="desc">Ankle-length, circular skirt in woven fabric with a high waist that has a zip and button at one side.</p>
+                </div>
+            </article>
+            
+            <article class="card">
+                <img src="assets/images/063/0639448005.jpg" alt="Case tote">
+                <div class="content">
+                    <p class="slot">accessory</p>
+                    <h2>Case tote</h2>
+                    <p class="meta">Bag / Accessories</p>
+                    <p class="meta">Dark Turquoise / article 0639448005</p>
+                    <p class="support">53 matching purchases</p>
+                    <p class="desc">Spacious handbag in sturdy, grained imitation leather with two handles and a zip at the top. Three inner compartments, one with a zip, and studs on the bottom. Lined. Size 15x30x36 cm.</p>
+                </div>
+            </article>
+            
+            <article class="card">
+                <img src="assets/images/055/0553611028.jpg" alt="Rhea pump">
+                <div class="content">
+                    <p class="slot">shoes</p>
+                    <h2>Rhea pump</h2>
+                    <p class="meta">Pumps / Shoes</p>
+                    <p class="meta">Dark Green / article 0553611028</p>
+                    <p class="support">36 matching purchases</p>
+                    <p class="desc">Court shoes with pointed toes and covered heels. Imitation leather linings and insoles and thermoplastic polyurethane (TPU) soles. Heel 8 cm.</p>
+                </div>
+            </article>
+            
+    </main>
+</body>
+</html>

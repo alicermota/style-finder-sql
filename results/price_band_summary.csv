@@ -1,0 +1,4 @@
+price_band,transaction_count,min_normalized_price,avg_normalized_price,max_normalized_price
+budget,11737958,0.000017,0.012595,0.016932
+mid_range,9464931,0.016949,0.024839,0.030780
+premium,10585435,0.030797,0.047396,0.591525

@@ -1,0 +1,25 @@
+.DS_Store
+__pycache__/
+*.pyc
+
+# Local Python environment
+.venv/
+venv/
+
+# Kaggle source data is too large for GitHub.
+articles.csv
+customers.csv
+transactions_train.csv
+*.zip
+*.download/
+images.zip.download/
+
+# Downloaded/generated product images.
+assets/images/**/*.jpg
+assets/*.jpg
+
+# Local credentials
+.env
+kaggle.json
+access_token
+

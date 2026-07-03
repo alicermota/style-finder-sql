@@ -1,0 +1,191 @@
+style_vibe,product_group_name,article_id,prod_name,product_type_name,garment_group_name,colour_group_name,price_band,image_path,purchase_count
+casual_basics,Garment Full body,0716348001,Marcie(1),Dress,Jersey Basic,Black,mid_range,images/071/0716348001.jpg,5182
+casual_basics,Garment Full body,0841434001,Amalia,Dress,Jersey Basic,Black,mid_range,images/084/0841434001.jpg,4415
+casual_basics,Garment Full body,0880839001,Eleonor button dress,Dress,Jersey Basic,Black,mid_range,images/088/0880839001.jpg,4287
+casual_basics,Garment Full body,0637255001,Gloss,Dress,Jersey Basic,Black,mid_range,images/063/0637255001.jpg,4207
+casual_basics,Garment Full body,0458239001,Tess CN Unique,Dress,Jersey Basic,Black,mid_range,images/045/0458239001.jpg,3856
+casual_basics,Garment Full body,0554811008,Rihanna,Dress,Jersey Basic,Black,mid_range,images/055/0554811008.jpg,3624
+casual_basics,Garment Full body,0212629004,Alcazar strap dress,Dress,Jersey Basic,Black,mid_range,images/021/0212629004.jpg,3558
+casual_basics,Garment Full body,0841434003,Amalia,Dress,Jersey Basic,White,mid_range,images/084/0841434003.jpg,3453
+casual_basics,Garment Full body,0512251004,Sonja sweater dress,Dress,Jersey Basic,Light Orange,budget,images/051/0512251004.jpg,3269
+casual_basics,Garment Full body,0212629048,Alcazar strap dress,Dress,Jersey Basic,Dark Pink,mid_range,images/021/0212629048.jpg,3179
+casual_basics,Garment Lower body,0706016001,Jade HW Skinny Denim TRS,Trousers,Trousers,Black,premium,images/070/0706016001.jpg,50287
+casual_basics,Garment Lower body,0706016002,Jade HW Skinny Denim TRS,Trousers,Trousers,Light Blue,premium,images/070/0706016002.jpg,35043
+casual_basics,Garment Lower body,0399223001,Curvy Jeggings HW Ankle,Trousers,Trousers Denim,Black,premium,images/039/0399223001.jpg,22236
+casual_basics,Garment Lower body,0706016003,Jade HW Skinny Denim TRS,Trousers,Trousers,Dark Blue,premium,images/070/0706016003.jpg,21241
+casual_basics,Garment Lower body,0562245046,Luna skinny RW,Trousers,Trousers,Black,premium,images/056/0562245046.jpg,20719
+casual_basics,Garment Lower body,0562245001,Luna skinny RW,Trousers,Trousers,Black,mid_range,images/056/0562245001.jpg,20464
+casual_basics,Garment Lower body,0399256001,Skinny Ankle R.W Brooklyn,Trousers,Trousers Denim,Black,budget,images/039/0399256001.jpg,20242
+casual_basics,Garment Lower body,0448509014,Perrie Slim Mom Denim TRS,Trousers,Trousers,Blue,premium,images/044/0448509014.jpg,19216
+casual_basics,Garment Lower body,0751471001,Pluto RW slacks (1),Trousers,Trousers,Black,premium,images/075/0751471001.jpg,18263
+casual_basics,Garment Lower body,0573716012,Kanta slacks RW,Trousers,Trousers,Black,mid_range,images/057/0573716012.jpg,16690
+casual_basics,Garment Upper body,0610776002,Tilly (1),T-shirt,Jersey Basic,Black,budget,images/061/0610776002.jpg,30199
+casual_basics,Garment Upper body,0759871002,Tilda tank,Vest top,Jersey Basic,Black,budget,images/075/0759871002.jpg,26329
+casual_basics,Garment Upper body,0610776001,Tilly (1),T-shirt,Jersey Basic,White,budget,images/061/0610776001.jpg,22451
+casual_basics,Garment Upper body,0572797001,ESSENTIAL TANKTOP LACE TVP,Vest top,Jersey Fancy,Black,budget,images/057/0572797001.jpg,13692
+casual_basics,Garment Upper body,0565379001,Moa tank,Vest top,Jersey Basic,Black,budget,images/056/0565379001.jpg,13557
+casual_basics,Garment Upper body,0717490008,Cat Tee.,T-shirt,Jersey Basic,Pink,budget,images/071/0717490008.jpg,13378
+casual_basics,Garment Upper body,0749699002,Chestnut strap top,Vest top,Jersey Fancy,Off White,mid_range,images/074/0749699002.jpg,12863
+casual_basics,Garment Upper body,0678942001,Harrison short sleeve top CN,Top,Knitwear,Black,budget,images/067/0678942001.jpg,12519
+casual_basics,Garment Upper body,0759871001,Tilda tank,Vest top,Jersey Basic,White,budget,images/075/0759871001.jpg,12226
+casual_basics,Garment Upper body,0572797002,ESSENTIAL TANKTOP LACE TVP,Vest top,Jersey Fancy,White,budget,images/057/0572797002.jpg,11965
+casual_basics,Shoes,0736489003,Zenit highlift sneaker,Sneakers,Shoes,White,premium,images/073/0736489003.jpg,3156
+casual_basics,Shoes,0622958003,New Vega sneaker,Sneakers,Shoes,Black,premium,images/062/0622958003.jpg,2956
+casual_basics,Shoes,0470985003,Vaughan sneaker,Sneakers,Shoes,White,mid_range,images/047/0470985003.jpg,2457
+casual_basics,Shoes,0574752003,Victoria sneaker,Sneakers,Shoes,White,premium,images/057/0574752003.jpg,2038
+casual_basics,Shoes,0622958016,New Vega sneaker,Sneakers,Shoes,White,premium,images/062/0622958016.jpg,1837
+casual_basics,Shoes,0622966014,Laura sneaker,Sneakers,Shoes,White,premium,images/062/0622966014.jpg,1816
+casual_basics,Shoes,0716868002,Raven sneaker SPEED,Sneakers,Shoes,White,premium,images/071/0716868002.jpg,1513
+casual_basics,Shoes,0727880001,Mimmi new,Sneakers,Shoes,White,budget,images/072/0727880001.jpg,1433
+casual_basics,Shoes,0754005001,Missy sneaker,Sneakers,Shoes,Black,mid_range,images/075/0754005001.jpg,1306
+casual_basics,Shoes,0727880003,Mimmi new,Sneakers,Shoes,Black,budget,images/072/0727880003.jpg,1302
+cozy,Accessories,0757903003,Bengal Scarf,Scarf,Accessories,Black,budget,images/075/0757903003.jpg,3590
+cozy,Accessories,0680391002,Mary Scarf,Scarf,Accessories,Black,budget,images/068/0680391002.jpg,2880
+cozy,Accessories,0428291001,Tigra knitted headband,Hat/beanie,Accessories,Black,budget,images/042/0428291001.jpg,2754
+cozy,Accessories,0624632002,Bengal,Scarf,Accessories,Black,budget,images/062/0624632002.jpg,2530
+cozy,Accessories,0318066004,KIMBERLY Braided Headband,Hat/beanie,Accessories,Black,budget,images/031/0318066004.jpg,2120
+cozy,Accessories,0428291007,Tigra knitted headband,Hat/beanie,Accessories,Grey,budget,images/042/0428291007.jpg,2043
+cozy,Accessories,0511783002,Rachel Scarf,Scarf,Accessories,Light Beige,budget,images/051/0511783002.jpg,1944
+cozy,Accessories,0732409001,Beetle beanie new,Hat/beanie,Accessories,Grey,budget,images/073/0732409001.jpg,1796
+cozy,Accessories,0757903001,Bengal Scarf,Scarf,Accessories,Grey,budget,images/075/0757903001.jpg,1766
+cozy,Accessories,0757903014,Bengal Scarf,Scarf,Accessories,Beige,budget,images/075/0757903014.jpg,1746
+cozy,Garment Full body,0758288001,BB First Layer,Garment Set,Outdoor,Black,premium,images/075/0758288001.jpg,103
+cozy,Garment Full body,0616123005,TVP Halmstad,Outdoor overall,Outdoor,Light Pink,premium,images/061/0616123005.jpg,97
+cozy,Garment Full body,0643725001,BB First layer set,Garment Set,Outdoor,Black,premium,images/064/0643725001.jpg,91
+cozy,Garment Full body,0616123004,TVP Halmstad,Outdoor overall,Outdoor,Dark Blue,premium,images/061/0616123004.jpg,77
+cozy,Garment Full body,0734914004,Halmstad overall,Outdoor overall,Outdoor,Dark Green,premium,images/073/0734914004.jpg,75
+cozy,Garment Full body,0734914009,Halmstad overall,Outdoor overall,Outdoor,Light Pink,premium,images/073/0734914009.jpg,65
+cozy,Garment Full body,0626484004,SB Berg overall,Jumpsuit/Playsuit,Outdoor,Dark Blue,premium,images/062/0626484004.jpg,57
+cozy,Garment Full body,0734914002,Halmstad overall,Outdoor overall,Outdoor,Dark Blue,premium,images/073/0734914002.jpg,50
+cozy,Garment Full body,0734914005,Halmstad overall,Outdoor overall,Outdoor,Black,premium,images/073/0734914005.jpg,46
+cozy,Garment Full body,0633558001,Twisted set,Garment Set,Outdoor,Grey,mid_range,images/063/0633558001.jpg,46
+cozy,Garment Lower body,0918836001,Hilton skirt,Skirt,Knitwear,Grey,premium,images/091/0918836001.jpg,1237
+cozy,Garment Lower body,0791122001,Karla knitted skirt,Skirt,Knitwear,Black,premium,images/079/0791122001.jpg,1034
+cozy,Garment Lower body,0772945001,Edward knitted skirt,Skirt,Knitwear,Dark Turquoise,premium,images/077/0772945001.jpg,1011
+cozy,Garment Lower body,0765080001,Olive skirt,Skirt,Knitwear,Dark Orange,premium,images/076/0765080001.jpg,1009
+cozy,Garment Lower body,0791787001,MOscow skirt,Skirt,Knitwear,Light Beige,premium,images/079/0791787001.jpg,959
+cozy,Garment Lower body,0791787002,MOscow skirt,Skirt,Knitwear,Greyish Beige,premium,images/079/0791787002.jpg,914
+cozy,Garment Lower body,0751390001,Mary Skirt,Skirt,Knitwear,Dark Blue,premium,images/075/0751390001.jpg,879
+cozy,Garment Lower body,0821759001,Bird skirt,Skirt,Knitwear,Dark Red,premium,images/082/0821759001.jpg,802
+cozy,Garment Lower body,0793356001,Dill skirt,Skirt,Knitwear,Black,premium,images/079/0793356001.jpg,645
+cozy,Garment Lower body,0831610001,Thumper skirt,Skirt,Knitwear,Green,premium,images/083/0831610001.jpg,641
+cozy,Garment Upper body,0673677002,Henry polo. (1),Sweater,Knitwear,Black,mid_range,images/067/0673677002.jpg,19143
+cozy,Garment Upper body,0579541001,Calista cardigan.,Cardigan,Knitwear,Black,budget,images/057/0579541001.jpg,15612
+cozy,Garment Upper body,0537116001,Tara turtleneck top,Sweater,Jersey Fancy,Black,budget,images/053/0537116001.jpg,11598
+cozy,Garment Upper body,0591334003,Flock (1),Sweater,"Under-, Nightwear",Black,budget,images/059/0591334003.jpg,7708
+cozy,Garment Upper body,0679854001,Maja Cardigan TVP,Cardigan,Knitwear,Black,budget,images/067/0679854001.jpg,6719
+cozy,Garment Upper body,0673677004,Henry polo (1),Sweater,Knitwear,Light Beige,mid_range,images/067/0673677004.jpg,6529
+cozy,Garment Upper body,0591334019,Flock (1),Sweater,"Under-, Nightwear",Dark Blue,budget,images/059/0591334019.jpg,6262
+cozy,Garment Upper body,0574109011,Rachel LS TVP,Sweater,Knitwear,Black,mid_range,images/057/0574109011.jpg,6036
+cozy,Garment Upper body,0673638001,Son V-neck,Sweater,"Under-, Nightwear",Black,budget,images/067/0673638001.jpg,5864
+cozy,Garment Upper body,0399061008,Jacket Slim,Jacket,Outdoor,Light Blue,premium,images/039/0399061008.jpg,5817
+cozy,Shoes,0502224001,Duffy,Boots,Shoes,Black,premium,images/050/0502224001.jpg,3815
+cozy,Shoes,0623115001,Joan boot,Boots,Shoes,Black,premium,images/062/0623115001.jpg,3656
+cozy,Shoes,0709138001,Logan,Boots,Shoes,Black,premium,images/070/0709138001.jpg,3190
+cozy,Shoes,0622955001,Carolina ankle,Boots,Shoes,Black,premium,images/062/0622955001.jpg,3017
+cozy,Shoes,0682509001,Wille boot,Boots,Shoes,Black,premium,images/068/0682509001.jpg,2282
+cozy,Shoes,0682511001,Lexington,Boots,Shoes,Black,premium,images/068/0682511001.jpg,2197
+cozy,Shoes,0658495001,Carolina Chelsea boot.,Boots,Shoes,Black,premium,images/065/0658495001.jpg,2117
+cozy,Shoes,0622962001,Billie Boot,Boots,Shoes,Black,premium,images/062/0622962001.jpg,1856
+cozy,Shoes,0622956001,Brenda elastic(1),Boots,Shoes,Black,premium,images/062/0622956001.jpg,1743
+cozy,Shoes,0547058001,OL AKIRA PQ,Boots,Shoes,Black,premium,images/054/0547058001.jpg,1669
+polished,Accessories,0673396002,Ringo hipbelt,Belt,Accessories,Black,budget,images/067/0673396002.jpg,19834
+polished,Accessories,0759465001,TILDA HIP BELT,Belt,Accessories,Black,budget,images/075/0759465001.jpg,9985
+polished,Accessories,0179950001,Austin basic leather hip belt,Belt,Accessories,Black,mid_range,images/017/0179950001.jpg,8724
+polished,Accessories,0664405002,Virgo Hip belt,Belt,Accessories,Black,budget,images/066/0664405002.jpg,7014
+polished,Accessories,0516859008,James basic hip belt,Belt,Accessories,Black,budget,images/051/0516859008.jpg,6517
+polished,Accessories,0759469001,STAR western belt,Belt,Accessories,Black,budget,images/075/0759469001.jpg,6150
+polished,Accessories,0589748001,Bella waistbelt,Belt,Accessories,Black,budget,images/058/0589748001.jpg,5279
+polished,Accessories,0224606019,Flora hip belt (1),Belt,Accessories,Black,budget,images/022/0224606019.jpg,4991
+polished,Accessories,0759482001,EVA eyelet belt (W),Belt,Accessories,Black,budget,images/075/0759482001.jpg,4735
+polished,Accessories,0639448001,Day tote,Bag,Accessories,Black,premium,images/063/0639448001.jpg,3982
+polished,Garment Full body,0401044004,Cora Dress,Dress,Dresses Ladies,Black,premium,images/040/0401044004.jpg,5149
+polished,Garment Full body,0714824001,Estelle strap dress,Dress,Dresses Ladies,Black,premium,images/071/0714824001.jpg,4839
+polished,Garment Full body,0612935009,Karma dress,Dress,Jersey Fancy,Black,premium,images/061/0612935009.jpg,4819
+polished,Garment Full body,0721298001,Salvador dress,Dress,Dresses Ladies,Black,mid_range,images/072/0721298001.jpg,4771
+polished,Garment Full body,0762063001,Havana dress SPEED,Dress,Dresses Ladies,Light Beige,premium,images/076/0762063001.jpg,4698
+polished,Garment Full body,0883033002,CS Paula dress,Dress,Jersey Fancy,White,mid_range,images/088/0883033002.jpg,4536
+polished,Garment Full body,0745475001,Sorrel(1),Dress,Dresses Ladies,Black,premium,images/074/0745475001.jpg,4358
+polished,Garment Full body,0817353008,Nirvana,Dress,Dresses Ladies,Black,mid_range,images/081/0817353008.jpg,4225
+polished,Garment Full body,0745475002,Sorrel(1),Dress,Dresses Ladies,Greenish Khaki,premium,images/074/0745475002.jpg,4070
+polished,Garment Full body,0714803001,Melody dress,Dress,Dresses Ladies,Dark Blue,premium,images/071/0714803001.jpg,3967
+polished,Garment Lower body,0849493007,Goji skirt,Skirt,Blouses,Dark Beige,premium,images/084/0849493007.jpg,844
+polished,Garment Lower body,0881350001,Sensei skirt,Skirt,Blouses,Black,premium,images/088/0881350001.jpg,541
+polished,Garment Lower body,0849493006,Goji skirt,Skirt,Blouses,Light Purple,premium,images/084/0849493006.jpg,539
+polished,Garment Lower body,0889496002,Frizz skirt,Skirt,Blouses,White,premium,images/088/0889496002.jpg,492
+polished,Garment Lower body,0849544001,Sabrina skirt,Skirt,Blouses,Black,premium,images/084/0849544001.jpg,470
+polished,Garment Lower body,0889496001,Frizz skirt,Skirt,Blouses,Black,premium,images/088/0889496001.jpg,457
+polished,Garment Lower body,0881369001,Grant skirt,Skirt,Blouses,Light Beige,premium,images/088/0881369001.jpg,419
+polished,Garment Lower body,0849544002,Sabrina skirt,Skirt,Blouses,Beige,premium,images/084/0849544002.jpg,400
+polished,Garment Lower body,0849493001,Goji skirt,Skirt,Blouses,Off White,premium,images/084/0849493001.jpg,347
+polished,Garment Lower body,0873706001,Terry skirt,Skirt,Blouses,Dark Grey,premium,images/087/0873706001.jpg,325
+polished,Garment Upper body,0568601006,Mariette Blazer,Blazer,Dressed,Black,premium,images/056/0568601006.jpg,19379
+polished,Garment Upper body,0507909001,Rebecca or Delphine shirt,Shirt,Blouses,White,mid_range,images/050/0507909001.jpg,15145
+polished,Garment Upper body,0695632002,Gyda blouse,Blouse,Blouses,White,mid_range,images/069/0695632002.jpg,11974
+polished,Garment Upper body,0507910001,Isabella,Shirt,Blouses,White,mid_range,images/050/0507910001.jpg,10908
+polished,Garment Upper body,0695632001,Gyda blouse,Blouse,Blouses,Black,premium,images/069/0695632001.jpg,10805
+polished,Garment Upper body,0762846001,Lucy blouse,Shirt,Blouses,White,mid_range,images/076/0762846001.jpg,9663
+polished,Garment Upper body,0762846008,Lucy blouse,Shirt,Blouses,Light Pink,mid_range,images/076/0762846008.jpg,9122
+polished,Garment Upper body,0850917001,Sadie Shirt,Shirt,Blouses,White,mid_range,images/085/0850917001.jpg,8448
+polished,Garment Upper body,0568601007,Mariette Blazer,Blazer,Dressed,Dark Blue,premium,images/056/0568601007.jpg,8446
+polished,Garment Upper body,0762846006,Lucy blouse,Shirt,Blouses,Black,mid_range,images/076/0762846006.jpg,7331
+polished,Shoes,0349301001,GLASSIG ESPADRILLE,Ballerinas,Shoes,Black,budget,images/034/0349301001.jpg,5798
+polished,Shoes,0469039019,Henrik ballerina,Ballerinas,Shoes,Black,mid_range,images/046/0469039019.jpg,3875
+polished,Shoes,0349301025,GLASSIG ESPADRILLE,Ballerinas,Shoes,White,budget,images/034/0349301025.jpg,1905
+polished,Shoes,0556438001,Amelie pump,Pumps,Shoes,Black,premium,images/055/0556438001.jpg,1809
+polished,Shoes,0586955001,Holly ballerina(1),Ballerinas,Shoes,Black,budget,images/058/0586955001.jpg,1717
+polished,Shoes,0553611001,rhea,Pumps,Shoes,Black,premium,images/055/0553611001.jpg,1705
+polished,Shoes,0581363001,Scallop ballerina,Ballerinas,Shoes,Black,budget,images/058/0581363001.jpg,1491
+polished,Shoes,0709746001,Louie Heel,Pumps,Shoes,Black,mid_range,images/070/0709746001.jpg,971
+polished,Shoes,0349301041,GLASSIG ESPADRILLE,Ballerinas,Shoes,Off White,budget,images/034/0349301041.jpg,933
+polished,Shoes,0758470001,Henrik fancy,Ballerinas,Shoes,Black,mid_range,images/075/0758470001.jpg,830
+statement_trendy,Accessories,0556539003,Velvet scrunchie,Hair ties,Accessories,Pink,budget,images/055/0556539003.jpg,6685
+statement_trendy,Accessories,0556539001,Velvet scrunchie,Hair ties,Accessories,Black,budget,images/055/0556539001.jpg,5985
+statement_trendy,Accessories,0743098001,Flirty Linnea necklace,Necklace,Accessories,Gold,budget,images/074/0743098001.jpg,5007
+statement_trendy,Accessories,0742947001,20p terrys,Hair ties,Accessories,Black,budget,images/074/0742947001.jpg,4268
+statement_trendy,Accessories,0743098002,Flirty Linnea necklace,Necklace,Accessories,Silver,budget,images/074/0743098002.jpg,3993
+statement_trendy,Accessories,0523489001,10p Jersey Terry,Hair string,Accessories,Black,budget,images/052/0523489001.jpg,3777
+statement_trendy,Accessories,0556539010,Velvet scrunchie,Hair ties,Accessories,Beige,budget,images/055/0556539010.jpg,3670
+statement_trendy,Accessories,0523490003,5p Plastic Terry,Hair ties,Accessories,Transparent,budget,images/052/0523490003.jpg,3323
+statement_trendy,Accessories,0369796007,John sunglasses,Sunglasses,Accessories,Dark Green,budget,images/036/0369796007.jpg,3304
+statement_trendy,Accessories,0762656001,Small basic scrunchie,Hair ties,Accessories,Black,budget,images/076/0762656001.jpg,3237
+statement_trendy,Garment Full body,0294008002,HM+ Cora tee,Costumes,Jersey Fancy,Black,budget,images/029/0294008002.jpg,5420
+statement_trendy,Garment Full body,0781180003,Flora(1),Jumpsuit/Playsuit,Trousers,Black,mid_range,images/078/0781180003.jpg,3512
+statement_trendy,Garment Full body,0681181001,Ivy jumpsuit w,Jumpsuit/Playsuit,Dresses Ladies,Black,mid_range,images/068/0681181001.jpg,3165
+statement_trendy,Garment Full body,0714825005,Lucky jumpsuit,Jumpsuit/Playsuit,Dresses Ladies,Greenish Khaki,premium,images/071/0714825005.jpg,3062
+statement_trendy,Garment Full body,0732103001,Kelly jumpsuit,Jumpsuit/Playsuit,Dresses Ladies,White,mid_range,images/073/0732103001.jpg,2892
+statement_trendy,Garment Full body,0727611002,Zidane jumpsuit,Jumpsuit/Playsuit,Dresses Ladies,Dark Blue,mid_range,images/072/0727611002.jpg,2537
+statement_trendy,Garment Full body,0294008005,HM+ Cora tee,Costumes,Jersey Fancy,White,budget,images/029/0294008005.jpg,2497
+statement_trendy,Garment Full body,0681181005,Ivy jumpsuit w,Jumpsuit/Playsuit,Dresses Ladies,Black,mid_range,images/068/0681181005.jpg,2366
+statement_trendy,Garment Full body,0742455002,Coral jumpsuit,Jumpsuit/Playsuit,Dresses Ladies,Black,budget,images/074/0742455002.jpg,2345
+statement_trendy,Garment Full body,0727611001,Zidane jumpsuit,Jumpsuit/Playsuit,Dresses Ladies,Black,mid_range,images/072/0727611001.jpg,2313
+statement_trendy,Garment Lower body,0720125001,SUPREME RW tights,Leggings/Tights,Jersey Fancy,Black,premium,images/072/0720125001.jpg,21063
+statement_trendy,Garment Lower body,0158340001,Highwaist 30 den 1p Tights,Leggings/Tights,Socks and Tights,Black,budget,images/015/0158340001.jpg,16533
+statement_trendy,Garment Lower body,0484398001,SUPREME tights,Leggings/Tights,Jersey Fancy,Black,mid_range,images/048/0484398001.jpg,15205
+statement_trendy,Garment Lower body,0741356002,Pamela Shorts HW,Shorts,Shorts,Blue,premium,images/074/0741356002.jpg,14454
+statement_trendy,Garment Lower body,0111586001,Shape Up 30 den 1p Tights,Leggings/Tights,Socks and Tights,Black,budget,images/011/0111586001.jpg,14191
+statement_trendy,Garment Lower body,0554479001,Ozzy Denim Shorts,Shorts,Shorts,Black,mid_range,images/055/0554479001.jpg,10716
+statement_trendy,Garment Lower body,0436261001,Control Top 30 den 1p Tights,Leggings/Tights,Socks and Tights,Black,budget,images/043/0436261001.jpg,9778
+statement_trendy,Garment Lower body,0730683001,HAVANA HW tights,Leggings/Tights,Jersey Fancy,Black,premium,images/073/0730683001.jpg,9763
+statement_trendy,Garment Lower body,0554479005,Ozzy Denim Shorts,Shorts,Shorts,Light Blue,mid_range,images/055/0554479005.jpg,9316
+statement_trendy,Garment Lower body,0656763001,Kajsa HW,Shorts,Shorts,Black,mid_range,images/065/0656763001.jpg,9079
+statement_trendy,Garment Upper body,0733097001,Saga body,Bodysuit,Jersey Fancy,Black,budget,images/073/0733097001.jpg,5321
+statement_trendy,Garment Upper body,0733097008,Saga body,Bodysuit,Jersey Fancy,White,budget,images/073/0733097008.jpg,3296
+statement_trendy,Garment Upper body,0857880001,Mira body,Bodysuit,Jersey Fancy,Black,budget,images/085/0857880001.jpg,2923
+statement_trendy,Garment Upper body,0852775002,Dina body,Bodysuit,Jersey Fancy,Black,mid_range,images/085/0852775002.jpg,2491
+statement_trendy,Garment Upper body,0852775004,Dina body,Bodysuit,Jersey Fancy,White,premium,images/085/0852775004.jpg,2432
+statement_trendy,Garment Upper body,0671515001,EDC J CARLOTTA POLO TOP,Polo shirt,Special Offers,Black,mid_range,images/067/0671515001.jpg,2211
+statement_trendy,Garment Upper body,0832482001,Ginger body,Bodysuit,Jersey Fancy,Black,budget,images/083/0832482001.jpg,1898
+statement_trendy,Garment Upper body,0857880002,Mira body,Bodysuit,Jersey Fancy,Dark Beige,budget,images/085/0857880002.jpg,1675
+statement_trendy,Garment Upper body,0671515003,EDC J CARLOTTA POLO TOP,Polo shirt,Special Offers,Dark Red,mid_range,images/067/0671515003.jpg,1609
+statement_trendy,Garment Upper body,0819485001,FF Rib rob polo,Polo shirt,Special Offers,Orange,mid_range,images/081/0819485001.jpg,1548
+statement_trendy,Shoes,0734460001,LOLA SANDAL,Sandals,Shoes,Black,budget,images/073/0734460001.jpg,3562
+statement_trendy,Shoes,0822344001,Venice wireless fargo,Slippers,"Under-, Nightwear",Black,premium,images/082/0822344001.jpg,3007
+statement_trendy,Shoes,0710056003,Kriss kross sandal,Sandals,Shoes,Black,budget,images/071/0710056003.jpg,2537
+statement_trendy,Shoes,0734460002,LOLA SANDAL,Sandals,Shoes,Yellowish Brown,budget,images/073/0734460002.jpg,2451
+statement_trendy,Shoes,0721435001,Love Espadrille,Sandals,Shoes,Black,premium,images/072/0721435001.jpg,2271
+statement_trendy,Shoes,0631878001,Mara sandal (1),Sandals,Shoes,Black,mid_range,images/063/0631878001.jpg,2260
+statement_trendy,Shoes,0517762001,Mary DTP,Heeled sandals,Shoes,Black,premium,images/051/0517762001.jpg,2198
+statement_trendy,Shoes,0581298005,Patty flip-flop,Flip flop,Shoes,Black,budget,images/058/0581298005.jpg,2131
+statement_trendy,Shoes,0808028001,Marian sandalette,Heeled sandals,Shoes,Black,mid_range,images/080/0808028001.jpg,1879
+statement_trendy,Shoes,0808628002,Frida Espadrille,Sandals,Shoes,Black,premium,images/080/0808628002.jpg,1870
