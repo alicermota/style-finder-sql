@@ -107,6 +107,10 @@ Contains smaller CSV outputs generated from the SQL analysis.
 
 A short written summary of the main conclusions.
 
+`analysis/customer_behavior_insights.md`
+
+A short SQL and Python supplement about customer spending, repeat purchases, and cohort retention.
+
 `DATA_SETUP.md`
 
 Instructions for downloading the Kaggle data and recreating the database.
@@ -136,6 +140,31 @@ Compares popular product types by age group, shopping channel, and price band.
 `sql/06_game_support.sql`
 
 Creates the materialized view used by the Python quiz.
+
+`sql/07_customer_behavior_analysis.sql`
+
+Exports the customer behavior analysis used in the supplemental report.
+
+## Customer Behavior Supplement
+
+I also added a short analysis report focused on customer spending and retention:
+
+```text
+analysis/customer_behavior_insights.md
+```
+
+This supplement looks at:
+
+- repeat purchase rate
+- normalized spending segments
+- active months per customer
+- monthly cohort retention
+
+The SQL exports the analysis tables, and Python formats the final Markdown report:
+
+```bash
+python3 analysis/customer_behavior_report.py
+```
 
 ## How To Run The Quiz
 
