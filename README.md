@@ -1,5 +1,17 @@
 # Style Finder: SQL-Powered Fashion Outfit Quiz
 
+## Recruiter Summary
+
+Individual SQL analytics project using the H&M Kaggle dataset to turn customer, transaction, and product data into recommendation-ready analytical views. The project demonstrates joins, CTEs, `CASE` logic, window functions, materialized views, customer behavior analysis, and a small Python terminal interface.
+
+## Technical Summary
+
+The SQL scripts profile quiz options, build price bands, rank products by customer/style segments, generate outfit paths, and create a materialized support view for the Python quiz. Supplementary SQL and Python outputs analyze repeat purchase behavior, normalized spending segments, active months, and cohort retention.
+
+## Project Status
+
+Portfolio-ready individual project. The raw H&M dataset is not committed because of size; setup instructions are documented in [`DATA_SETUP.md`](DATA_SETUP.md).
+
 This is a SQL project I built using the H&M Personalized Fashion Recommendations dataset from Kaggle.
 
 I wanted to make a project that was more interesting than just "top 10 products" or basic sales statistics, so I created a small fashion quiz that recommends an outfit based on a person's answers. The quiz uses real customer purchase data, product information, and SQL logic to suggest either:
