@@ -1,7 +1,5 @@
 # Style Finder: SQL-Powered Fashion Outfit Quiz
 
-## Recruiter Summary
-
 Individual SQL analytics project using the H&M Kaggle dataset to turn customer, transaction, and product data into recommendation-ready analytical views. The project demonstrates joins, CTEs, `CASE` logic, window functions, materialized views, customer behavior analysis, and a small Python terminal interface.
 
 ## Technical Summary
